@@ -75,9 +75,10 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-    retrofit_generator: 3.0.1+1
+
     floor_generator: 1.2.0
     build_runner: 3.0.1
+    retrofit_generator: 3.0.1+1
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -113,14 +114,14 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-  - family: Muli
+    - family: Muli
       fonts:
         - asset: assets/fonts/Muli.ttf
         - asset: assets/fonts/Muli-Bold.ttf
           weight: 700
         - asset: assets/fonts/Muli-Light.ttf
           weight: 300
-  #
+
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
 # import yaml
